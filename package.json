@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "serve": "parcel serve ./public/index.html",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": ["movie-app"],
