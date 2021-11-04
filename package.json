@@ -7,17 +7,25 @@
     "serve": "parcel serve ./public/index.html",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": ["movie-app"],
+  "keywords": [
+    "movie-app"
+  ],
   "author": "Damir Garifullin",
   "license": "ISC",
   "dependencies": {
     "parcel": "^2.0.0",
     "react": "^17.0.2",
-    "react-dom": "^17.0.2"
+    "react-dom": "^17.0.2",
+    "react-redux": "^7.2.6",
+    "redux": "^4.1.2",
+    "redux-persist": "^6.0.0",
+    "redux-saga": "^1.1.3"
   },
   "devDependencies": {
     "@types/react": "^17.0.34",
     "@types/react-dom": "^17.0.11",
+    "@types/react-redux": "^7.1.20",
+    "redux-devtools-extension": "^2.13.9",
     "tsc": "^2.0.3",
     "typescript": "^4.4.4"
   }
